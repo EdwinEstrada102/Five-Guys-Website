@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE Five Guys</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Order</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="order">
+            <div class="order-items">
+                <img src="cheeseburger.jpg" class="order-img">
+                <p>Cheeseburger</p>
+                <button class="left-button" id="cheeseMinus">-</button>
+                <span id="cheeseAmount">0</span>
+                <button id="cheesePlus">+</button>
+                <span id="cheeseTotal">$0</span>
+            </div>
+            <div class="order-items">
+                <img src="soda.jpg" class="order-img">
+                <p>Soda</p>
+                <button class="left-button" id="sodaMinus">-</button>
+                <span id="sodaAmount">0</span>
+                <button id="sodaPlus">+</button>
+                <span id="sodaTotal">$0</span>
+            </div>
+            <div class="order-items">
+                <img src="fries.jpg" class="order-img">
+                <p>French Fries</p>
+                <button class="left-button" id="friesMinus">-</button>
+                <span id="friesAmount">0</span>
+                <button id="friesPlus">+</button>
+                <span id="friesTotal">$0</span>
+            </div>
+            <p id="total">Total: $0</p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
